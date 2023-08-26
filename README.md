@@ -1,4 +1,3 @@
-
 #  House Hunter
 
 Hello! Welcome to our page.
