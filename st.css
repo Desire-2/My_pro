@@ -19,6 +19,7 @@ img {
     padding-right: 40px;
     flex: 1;
     flex-direction: row;
+    text-align-last: center;
   }
   .location {
     display: inline;
@@ -29,13 +30,13 @@ img {
     padding: 20px;
     flex: 1;
     margin: 20px;
-    border: 20px;
     border-radius: 10px;
-    
-    align-items:stretch;
   }
   .item {
     display: flex;
+    text-align-last: center;
+    border: 3px solid white;
+    align-content: center;
 
   }
   .button {
@@ -46,6 +47,8 @@ img {
     border: 20px;
     border-radius: flex;
     width: 100px;
+    text-align-last: center;
+    align-content: center;
   }
   .button::shadow {
     transform-origin: 10px;

@@ -8,14 +8,22 @@
 
         }
     
-      h1 {
+        h1 {
             font-weight: bold;
-            align-items: center;
             font-family: 'Times New Roman', Times, serif;
-            flex-direction: column-reverse;
-            cursor: pointer;
-            display:block;
-        }  
+            white-space: nowrap; /* Prevent text from wrapping */
+            overflow: hidden; /* Hide overflowing text */
+            animation: handwriting 5s linear infinite alternate;
+        }
+
+        @keyframes handwriting {
+            0% {
+                width: 0; /* Start with no width (hidden) */
+            }
+            100% {
+                width: auto; /* Fully reveal the text */
+            }
+        }
     </style>
     <link rel="stylesheet" href="st.css">
     <meta charset="UTF-8">
@@ -25,17 +33,17 @@
 <body>
     <div class="title">
         <h1>House Hunter</h1>
-        <h1>
+        <h2>
             Hello! <br> Welcome to our page
-        </h1>
-        <p>
+        </h2>
+        <h3>
            Here you can find the house you want in Rwand on low cost
-        </p>
+        </h3>
     </div>
     <div class="item">
         <a href="./login/login.html"><button>Login</button></a>
     <a href="h.html"><button>Houses</button></a>
-    <a href="location.html"><button>Location</button></a>
+    <a href="./Location/location.html"><button>Location</button></a>
     <a href=""><button>Amount range</button></a>
     <a href=""><button>Rent</button></a>
     <a href=""><button>Buy</button></a>
