@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a House</title>
+    <link rel="stylesheet" href="post-house.css">
+</head>
+<body>
+    <h1>Post a House</h1>
+    <form id="houseForm" enctype="multipart/form-data">
+        <label for="houseTitle">House Title:</label>
+        <input type="text" id="houseTitle" required>
+
+        <label for="houseLocation">Location:</label>
+        <!-- Input fields for location details -->
+        <input type="text" id="province" placeholder="Province" required>
+        <input type="text" id="district" placeholder="District" required>
+        <input type="text" id="sector" placeholder="Sector" required>
+        <input type="text" id="cell" placeholder="Cell" required>
+        <input type="text" id="village" placeholder="Village" required>
+
+        <label for="houseDescription">Description:</label>
+        <textarea id="houseDescription" required></textarea>
+
+        <label for="houseImages">Upload Images:</label>
+        <input type="file" id="houseImages" accept="image/*" multiple required>
+
+        <button onclick="submitHouse()">Submit</button>
+    </form>
+
+    <script src="post-house.js"></script>
+    <script src="n_app.js"></script>
+</body>
+</html>

@@ -5,33 +5,43 @@
 </head>
 <body>
     <h1>Rwanda Regions</h1>
-    
+
+    <!-- Create a button -->
+    <button id="myButton">Click Me</button>
+
     <!-- Create containers for each region -->
     <div id="provinceContainer">
         <h2>Provinces</h2>
         <!-- Province buttons will be added here dynamically -->
     </div>
-    
+
     <div id="districtContainer">
         <h2>Districts</h2>
         <!-- District buttons will be added here dynamically -->
     </div>
-    
+
     <div id="sectorContainer">
         <h2>Sectors</h2>
         <!-- Sector buttons will be added here dynamically -->
     </div>
-    
+
     <div id="cellContainer">
         <h2>Cells</h2>
         <!-- Cell buttons will be added here dynamically -->
     </div>
-    
+
     <div id="villageContainer">
         <h2>Villages</h2>
         <!-- Village buttons will be added here dynamically -->
     </div>
 
-    <script src="./rwanda_regions.js"></script>
+    <input type="text" id="searchInput" placeholder="Search by name">
+    <select id="filterSelect">
+        <option value="all">All</option>
+        <option value="house">Houses</option>
+    </select>
+
+    <!-- Include the location.js script to handle data loading and button creation -->
+    <script src="rwanda_regions.js"></script>
 </body>
 </html>

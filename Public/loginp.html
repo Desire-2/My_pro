@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Sign Up</title>
+    <link rel="stylesheet" href="loginp.css">
+</head>
+<body>
+    <h1>Login or Sign Up</h1>
+    <div class="login-container">
+        <div>
+            <label for="loginMethod">Select Action:</label>
+            <select id="loginMethod" onchange="toggleForm()">
+                <option value="login">Login</option>
+                <option value="signup">Sign Up</option>
+            </select>
+        </div>
+        <div id="emailLogin" style="display: none;">
+            <label for="loginEmail">Email:</label>
+            <input type="text" id="loginEmail">
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword">
+        </div>
+        <div id="phoneLogin" style="display: none;">
+            <label for="loginPhoneNumber">Phone Number:</label>
+            <input type="text" id="loginPhoneNumber">
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword">
+        </div>
+        <button onclick="performAction()">Submit</button>
+    </div>
+
+    <div class="signup-form" style="display: none;">
+        <h2>Sign Up</h2>
+        <div>
+            <label for="signupEmailOrPhone">Email or Phone Number:</label>
+            <input type="text" id="signupEmailOrPhone">
+        </div>
+        <div>
+            <label for="signupLocation">Location:</label>
+            <input type="text" id="signupLocation">
+        </div>
+        <div>
+            <label for="signupPassword">Password:</label>
+            <input type="password" id="signupPassword">
+        </div>
+        <div>
+            <label for="signupRetypePassword">Retype Password:</label>
+            <input type="password" id="signupRetypePassword">
+        </div>
+        <button onclick="performSignUp()">Sign Up</button>
+    </div>
+    <script src="loginp.js"></script>
+    <script src="n_app.js"></script>
+</body>
+</html>

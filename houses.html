@@ -1,63 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        h1 {
-            background-color: brown;
-            padding: 30px;
-            margin: 20px;
-            border: 20px;
-            border-radius: 60px;
-            flex: 1 0.5 auto;
-            align-items: center;
-            align-content: flex;
-            animation-duration: 3s;
-            inline-size: flex;
-            size-adjust: flex;
-            font-style: italic;
-
-        }
-        h2 {
-            background-color: rgb(99, 4, 64);
-        margin: flex;
-        padding: 5%;
-        border-radius: 100px;
-        }
-        img {
-            height: auto;
-            width: 500px;
-            margin: 5px;
-            margin-right: 15px;
-            padding: 10px;
-            flex: 1;
-            float: inline-start;
-            border-radius: 70px;
-        }
-        .slideshow-container,
-.slideshow-container1,
-.slideshow-container2 {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    height: auto;
-    width: 500px;
-  }
-  
-    .slideshow-container img,
-    .slideshow-container1 img,
-    .slideshow-container2 img {
-        width: 100%;
-        height: auto;
-        display: none;
-        background-color: black;
-        
-    }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Houses</title>
+    <link rel="stylesheet" href="houses.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
 </head>
 <body>
+    <button id="postHouseButton">Click here to Post you House</button>
     <div>
         <h1>
             Buy house of you dreams on low cost.
@@ -74,6 +25,32 @@
             <li>2 Saloon</li>
             </ul>
         </div>
+    </div>
+    <img src="./150/150M.jpeg" alt="Image 21">
+    <div class="detail">
+        <h2>Location: Kibagabaga</h2>
+            <h3>Rooms</h3>
+            <ul>
+                <li>8 bedding Rooms</li>
+                <li>1 Kichen</li>
+                <li>1 Toilet</li>
+                <li>Dining area</li>
+                <li>1 Saloon</li>
+           </ul>
+        </div>
+  </div>
+  <div><img src="./150/15M2.jpeg" alt="Image 21">
+  <div class="detail">
+    <h2>Location: Kibagabaga</h2>
+        <h3>Rooms</h3>
+        <ul>
+            <li>8 bedding Rooms</li>
+            <li>1 Kichen</li>
+            <li>1 Toilet</li>
+            <li>Dining area</li>
+            <li>1 Saloon</li>
+        </ul>
+    </div>
     </div>
     <div>
         <img src="350M.jpeg" alt="Ammount = 350M Rwfs">
@@ -102,10 +79,20 @@
         <img src="./200/200M3 clon7.jpeg" alt="Image 11">
         <img src="./200/200M3 clon8.jpeg" alt="Image 12">
         <img src="./200/200M3 clon9.jpeg" alt="Image 13">
-
-      </div>
+        <div class="detail">
+            <h2>Location: Kibagabaga</h2>
+                <h3>Rooms</h3>
+                <ul>
+                    <li>8 bedding Rooms</li>
+                    <li>1 Kichen</li>
+                    <li>1 Toilet</li>
+                    <li>Dining area</li>
+                    <li>1 Saloon</li>
+                </ul>
+        </div>
       <div>
         <img src="./200/200M2.jpeg" alt="">
+        
       </div>
       <div class="slideshow-container1">
         <img src="./250/250M2.jpeg" alt="">
@@ -129,6 +116,17 @@
         <img src="./250/250M2 Clone17.jpeg" alt="Image 20">
         <img src="./250/250M2 Clone19.jpeg" alt="Image 21">
         <img src="./250/250M2 Clone18.jpeg" alt="Image 21">
+        <div class="detail">
+            <h2>Location: Kibagabaga</h2>
+                <h3>Rooms</h3>
+                <ul>
+                    <li>8 bedding Rooms</li>
+                    <li>1 Kichen</li>
+                    <li>1 Toilet</li>
+                    <li>Dining area</li>
+                    <li>1 Saloon</li>
+                </ul>
+            </div>
       </div>
       <div class="slideshow-container2">
         <img src="./250/250M3.jpeg" alt="">
@@ -138,11 +136,24 @@
         <img src="./250/250M3 clone1.jpeg" alt="Image 21">
         <img src="./250/250M3 clone4.jpeg" alt="Image 21">
         <img src="./250/250M3 clone5.jpeg" alt="Image 21">
+        <div class="detail">
+            <h2>Location: Kibagabaga</h2>
+                <h3>Rooms</h3>
+                <ul>
+                    <li>8 bedding Rooms</li>
+                    <li>1 Kichen</li>
+                    <li>1 Toilet</li>
+                    <li>Dining area</li>
+                    <li>1 Saloon</li>
+                </ul>
+            </div>
       </div>
-      <div>
-        <img src="./150/150M.jpeg" alt="Image 21">
-      </div>
-      <div><img src="./150/15M2.jpeg" alt="Image 21"></div>
-      <script src="s.js"></script>
+       <div>
+       
+       <!-- Add a link to "Post a House" for authenticated users -->
+       <script src="houses.js"></script>
+      <script src="style.js"></script>
+      <script src="n_app.js"></script>
+    </div>
 </body>
 </html>
