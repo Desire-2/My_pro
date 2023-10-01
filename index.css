@@ -56,14 +56,14 @@ li {
 
 .main-menu a {
     text-decoration: none;
-    color: #663300;
+    color: #d0bdab;
     font-weight: bold;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 .main-menu a:hover {
-    color: #ff9900;
+    color: #eaddc9;
 }
 
 /* Web Content Styles */
@@ -76,7 +76,7 @@ li {
 }
 
 .web h1 {
-    color: #c57c34;
+    color: #dfd8d1;
     font-size: 24px;
     margin-top: 10px;
 }
