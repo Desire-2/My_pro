@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  /* Button Style */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container Styles */
+  div#provinceContainer,
+  div#districtContainer,
+  div#sectorContainer,
+  div#cellContainer,
+  div#villageContainer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  div#provinceContainer:hover,
+  div#districtContainer:hover,
+  div#sectorContainer:hover,
+  div#cellContainer:hover,
+  div#villageContainer:hover {
+    transform: scale(1.02);
+  }
+  
+  h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Search Input and Filter Select Styles */
+  input#searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 50%;
+    transition: border-color 0.3s ease;
+  }
+  
+  input#searchInput:focus {
+    border-color: #007bff;
+  }
+  
+  select#filterSelect {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 20%;
+    transition: border-color 0.3s ease;
+  }
+  
+  select#filterSelect:focus {
+    border-color: #007bff;
+  }
+  
+  /* House Container Styles */
+  div#houseContainer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  div#houseContainer:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Button Hover Effects */
+  button:hover,
+  button:focus {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    input#searchInput {
+      width: 100%;
+    }
+  
+    select#filterSelect {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
