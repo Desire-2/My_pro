@@ -1,34 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-
-        body {
-            background-color: rgb(99, 60, 9);
-
-        }
-    
-        h1 {
-            font-weight: bold;
-            font-family: 'Times New Roman', Times, serif;
-            white-space: nowrap; /* Prevent text from wrapping */
-            overflow: hidden; /* Hide overflowing text */
-            animation: handwriting 5s linear infinite alternate;
-        }
-
-        @keyframes handwriting {
-            0% {
-                width: 0; /* Start with no width (hidden) */
-            }
-            100% {
-                width: auto; /* Fully reveal the text */
-            }
-        }
-    </style>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> House Hunter</title>
+    <link rel="stylesheet" href="index.css">
+    <title>House Hunter</title>
+
 </head>
 <body>
     <div class="title">
@@ -37,19 +15,21 @@
             Hello! <br> Welcome to our page
         </h2>
         <h3>
-           Here you can find the house you want in Rwand on low cost
+            Here you can find the house you want in Rwanda on low cost
         </h3>
     </div>
-    <div class="item">
-        <a href="../Public/loginp.html"><button>Login</button></a>
-    <a href="houses.html"><button>Houses</button></a>
-    <a href="./Location/location.html"><button>Location</button></a>
-    <a href=""><button>Amount range</button></a>
-    <a href=""><button>Rent</button></a>
-    <a href=""><button>Buy</button></a>
-    <a href=""><button>Sell</button></a>
-    <a href=""> <button>Contact</button></a>
-    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="../Public/loginp.html">Login</a></li>
+            <li><a href="houses.html">Houses</a></li>
+            <li><a href="./Location/location.html">Location</a></li>
+            <li><a href="#">Amount range</a></li>
+            <li><a href="#">Rent</a></li>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Sell</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
     <div class="web-inter">
         <img src="400M.jpeg" alt="">
@@ -58,10 +38,10 @@
             <h2>Rooms</h2>
             <ul>
                 <li>8 bedding Rooms</li>
-                <li>1 Kichen</li>
+                <li>1 Kitchen</li>
                 <li>1 Toilet</li>
                 <li>Dining area</li>
-                <li>1 Saloon</li>
+                <li>1 Salon</li>
             </ul>
         </div>
     </div>

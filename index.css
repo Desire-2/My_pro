@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    background-color: #ffcc66;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #663300;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: handwriting 5s linear infinite alternate;
+}
+
+/* Button Styles */
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+/* Main Menu Styles */
+.main-menu {
+    background-color: #ffcc66;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #663300;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.main-menu a:hover {
+    color: #ff9900;
+}
+
+/* Web Content Styles */
+.web-inter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.web h1 {
+    color: #c57c34;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.web h2 {
+    color: #ff9900;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 5px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Handwriting Animation */
+@keyframes handwriting {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: auto;
+    }
+}
